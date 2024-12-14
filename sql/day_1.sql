@@ -1,5 +1,3 @@
-.mode list
-.separator ","
 with wishes as (
     select c.name,
         wl.wishes ->> '$.first_choice' primary_wish,

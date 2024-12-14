@@ -1,5 +1,3 @@
--- .mode list
--- .separator ","
 with letters as (
     select id, chr(value) _char
     from letters_a
