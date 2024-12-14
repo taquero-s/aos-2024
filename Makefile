@@ -6,3 +6,6 @@ day-2:
 
 day-7:
 	cat ./data/advent_of_sql_day_7.sql ./sql/day_7.sql | poetry run duckdb --
+
+day-8:
+	cat ./data/advent_of_sql_day_8.sql ./sql/day_8.sql | poetry run duckdb --
